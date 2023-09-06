@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat&family=DM+Serif+Text:ital@1&family=Francois+One&display=swap');
+*{
+	font-family: Times New Roman;
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: white;
+}
+.navbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 8px;
+	background: white;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+
+.logo{
+	font-size: 25px;
+	color: royalblue;
+	font-family: 'Carter One', cursive;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.nav a{
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
+	transition-duration: 1s;
+}
+.nav a:hover,
+.nav a.active{
+	color: red;
+}
+
+.icn{
+	margin-right: 20px;
+	width: 150px;
+	height: 30px;
+	word-spacing: 8px;
+}
+.icn a{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	background: transparent;
+/*	border: 1px solid red;*/
+	border: 1px solid transparent;
+	text-decoration: none;
+	transform: rotate(45deg);
+	transition-duration: 1s;
+}
+.icn a:hover{
+	border-color: red;
+}
+.icn a i{
+	font-size: 20px;
+	color: red;
+	transform: rotate(-45deg);
+}
+
+
+.home{
+	width: 100%;
+	height:650px;
+	padding-top: 150px;
+	display: flex;
+	align-items: center;
+	padding-left: 90px;
+	overflow: hidden;
+}
+.homeinfo{
+	max-width: 600px;
+}
+.homeinfo h3{
+	font-size: 40px;
+	line-height: 1.2px;
+}
+.homeinfo h2{
+	font-size: 50px;
+	color: red;
+}
+.homeinfo p{
+	font-size: 18px;
+}
+
+button{
+	background: red;
+	border-radius: 6px;
+	color: white;
+	font-size: 16px;
+	height: 30px;
+	width: 120px;
+	border: 2px solid red;
+	box-shadow: 2px 4px 6px gray;
+	transition-duration: 1s;
+}
+button:hover{
+	background: transparent;
+	color: black;
+}
+
+
+/*.homeimg{
+	position: relative;
+	width: 450px;
+	height: 450px;
+	background: gray;
+	margin-left: 370px;
+	transform: rotate(45deg);
+}*/
+
+/*.homeimg .himg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: red;	
+	border: 25px solid red;
+}
+/*.homeimg .himg img{
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 90px;
+	max-width: 750px;
+	left: -250px;
+}
+*/
+
+.projects{
+	padding-top: 90px;
+	width: 100%;
+	height: 800px;
+/*	background-color: gray;*/
+}
+.projects h2{
+	color: royalblue;
+	font-weight: bolder;
+}
+.cards{
+	display: inline-flex;
+	margin-left: 15px;
+}
+.card{
+	height: 500px;
+	width: 300px;
+	margin: 35px;	
+	background-color: whitesmoke;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img{
+	width: 100%;
+}
+.container {
+  padding: 2px 16px;
+}
+.container h4{
+	color: red;
+}
+.container p{
+	text-align: justify;
+}
+.container a{
+	text-decoration: none;
+	color: royalblue;
+}
